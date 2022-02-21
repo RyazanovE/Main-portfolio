@@ -1,0 +1,638 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+:visited {
+  text-decoration: none;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  padding: 0 8%;
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*////   header   //////*/
+
+header {
+  padding: 10px 0;
+  background-color: #414142;
+  border-radius: 0 0 20% 20%;
+
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+
+.header-img {
+  width: 80px;
+  height: 50px;
+  text-align: center;
+  border-bottom: 5px solid rgb(121, 120, 120);
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 32px;
+  background: linear-gradient(135deg, #eecfba, #c5dde8);
+  border-radius: 30px;
+}
+
+.header-menu {
+  margin-left: auto;
+}
+
+header nav {
+  text-transform: uppercase;
+  padding: 20px 0;
+
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+}
+
+.top-menu li {
+  font-size: 14px;
+  display: inline-block;
+}
+
+.top-menu li a {
+  height: 20px;
+  padding: 10px 20px;
+  transition: all 0.1s ease;
+}
+
+.top-menu a {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  border-radius: 20px;
+}
+
+.top-menu a:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.top-menu a:hover {
+  color: #414142;
+  cursor: pointer;
+}
+
+/*////   section: about-me   //////*/
+.about-me {
+  padding-top: 0;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+  height: 421px;
+}
+
+.about-me .container {
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.about-me-content {
+  margin-top: 0px;
+  width: 606px;
+}
+
+.about-me-text h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #414142;
+}
+
+.about-me-text {
+  text-align: center;
+
+  color: #414142;
+}
+
+.about-me-text p {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.about-me-info {
+  padding: 10px 50px;
+
+  line-height: 2;
+  border-radius: 50px;
+  color: #413f3f;
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+}
+
+.about-me-info .tittle {
+  color: #414142;
+  text-transform: uppercase;
+}
+
+.about-me-info .email {
+  margin-left: 101px;
+  letter-spacing: 1px;
+}
+
+.about-me-info .number {
+  margin-left: 80px;
+  letter-spacing: 1px;
+}
+
+.about-me-info p:nth-child(2) {
+  margin-top: 10px;
+}
+
+.social-links {
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+}
+
+.social-links a {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.2s ease-in;
+}
+
+.social-links a:hover {
+  transform: translateY(-20%);
+}
+
+.social-links a:nth-child(2) {
+  margin-left: 93px;
+}
+
+.social-links a:nth-child(n + 3) {
+  margin-left: 30px;
+}
+
+.contact-me-button {
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  margin-left: 153px;
+  font-weight: normal;
+
+  border: 3px solid white;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #413f3f;
+  background: white;
+  border: 3px solid #413f3f;
+  border-radius: 60px;
+  transition: all 0.3s ease-in;
+}
+
+.contact-me-button:hover {
+  background: #413f3f;
+  color: white;
+  cursor: pointer;
+}
+
+.about-me-photo {
+  margin: auto;
+  text-align: center;
+}
+
+.about-me-photo img {
+  box-shadow: 5px 20px 20px #414142;
+}
+
+/*////   section: education  //////*/
+
+.education {
+  height: 461px;
+}
+
+/*////   section: skills   //////*/
+
+.skills {
+  width: 100%;
+}
+
+.skills-text {
+  text-align: center;
+  width: 606px;
+}
+
+.skills-text h1 {
+  padding-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #414142;
+}
+
+.skills-text p {
+  width: 450px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.hidden-skill {
+  display: none;
+}
+
+.skills-cards {
+  display: flex;
+  margin: auto;
+}
+
+.skill-column1,
+.skill-column2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-column1 {
+  margin-top: 257px;
+  margin-bottom: 34px;
+}
+
+.skill-column2 {
+  margin: 155px 0 0 80px;
+}
+
+.skills-cards .card {
+  background-color: white;
+  margin-bottom: 45px;
+  width: 246px;
+  height: 283px;
+  box-shadow: 5px 5px 40px rgb(129, 129, 129);
+  border-radius: 10px;
+  padding: 43px 24px;
+  transition: all 0.2s ease-in;
+}
+
+.skills-cards .card:hover {
+  transform: translateY(-5%);
+}
+
+.skills-cards .card h3 {
+  margin: 10px 0;
+  font-family: "Open Sans", sans-serif;
+  color: #414142;
+}
+
+.skills-cards .card p {
+  margin: 10px 0;
+  font-family: "Open Sans", sans-serif;
+  color: #7a7777;
+}
+
+.skills .background {
+  background: linear-gradient(135deg, #fdf9f6, #c5dde8);
+  border-radius: 40% 0 0 0;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  border-top: 7px solid rgb(121, 120, 120);
+}
+
+.education-content {
+  width: 606px;
+}
+
+.education-text {
+  text-align: center;
+  color: #414142;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+}
+
+.education-text h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #414142;
+  padding-bottom: 10px;
+}
+
+.education-centers {
+  max-width: 50%;
+  height: 100%;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.education-centers .center div {
+  padding: 30px 0;
+}
+
+.education-centers .center span {
+  opacity: 0.8;
+  font-size: 16px;
+  line-height: 1.56;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+.education-centers .center div h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+.education-centers .center div h4 {
+  padding-top: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.education-centers .center div p {
+  padding-top: 10px;
+  font-size: 16px;
+  line-height: 1.56;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.portfolio .container {
+  justify-content: center;
+}
+
+.portfolio-background .container {
+  height: auto;
+}
+
+.portfolio-background {
+  background: linear-gradient(225deg, #c5dde8, #fdf9f6);
+  border-radius: 0 0 40% 0;
+  width: 100%;
+  height: 964px;
+  border-bottom: 7px solid rgb(121, 120, 120);
+  text-align: center;
+}
+
+.portfolio h1 {
+  padding-top: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #414142;
+}
+
+.portfolio-menu {
+  /**
+             * Для эксплорера
+             */
+  -ms-user-select: none;
+
+  /**
+              * Для мозилы
+              */
+  -moz-user-select: none;
+
+  /**
+              * Для конкверора
+              */
+  -khtml-user-select: none;
+
+  /**
+              * Для Сафари и Хрома
+              */
+  -webkit-user-select: none;
+}
+
+.portfolio-menu li {
+  width: 150px;
+  margin: 10px 0;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  transition: all 0.1s ease;
+}
+
+.portfolio-menu a:hover {
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.portfolio-card-parent {
+  margin: 20px;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 15px;
+  transition: all 0.5s linear;
+  opacity: 1;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.portfolio-card-child {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-size: cover;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.portfolio-card-child h2 {
+  font-size: 14px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  color: rgb(180, 180, 180);
+}
+
+#JSproject1 {
+  background-image: url("./");
+}
+
+#JSproject2 {
+  background-image: url("./images/about-me/my-photo2.jpg");
+}
+
+#ReactProject1 {
+  background-image: url("./images/about-me/my-photo3.jpg");
+}
+
+#HTML1 {
+  background-image: url("./images/about-me/my-photo4.jpg");
+}
+
+#HTML2 {
+  background-image: url("./images/about-me/my-photo6.jpg");
+}
+
+.portfolio-card-parent:hover .portfolio-card-child {
+  transform: scale(1.2);
+}
+
+.contact-me {
+  height: 50vh;
+}
+
+.contact-me-text {
+  width: 606px;
+  text-align: center;
+  color: #414142;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+}
+
+.contact-me-text h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #414142;
+  padding-bottom: 10px;
+}
+
+.contact-me-inputs {
+  display: flex;
+  height: 214px;
+  margin-left: auto;
+  margin-top: 100px;
+  position: relative;
+}
+
+.contact-me-inputs::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(1, 1, 1, 0.05) url("./images/contact-me/hug.gif") center /
+    50px no-repeat;
+  visibility: hidden;
+}
+
+.contact-me-inputs._sending::after {
+  visibility: visible;
+}
+
+.contact-me-col1 {
+  margin: 0 auto;
+  text-align: center;
+  padding-right: 15px;
+}
+
+.contact-me-col2 {
+  margin: auto;
+  text-align: center;
+  padding-left: 15px;
+}
+
+.contact-me-input1 {
+  width: 200px;
+}
+
+.contact-me-input2 {
+  width: 400px;
+}
+
+.contact-me-input1 input:nth-child(1) {
+  height: 50px;
+  width: 100%;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.contact-me-input1 input:nth-child(2) {
+  height: 50px;
+  width: 100%;
+  margin-top: 15px;
+  outline: none;
+}
+
+.contact-me-input2 input {
+  height: 130px;
+  width: 100%;
+}
+
+.contact-me-input1 input {
+  padding: 15px;
+  border: 1px solid #e3e3e3;
+
+  font-family: "Lato", sans-serif;
+  line-height: 1.4;
+  font-size: 14px;
+  color: #424141;
+  transition: all 0.1s ease;
+}
+
+.contact-me-input2 input::placeholder {
+  transform: translateY(-40px);
+}
+
+.contact-me-input1 input::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  line-height: 1.4;
+  font-size: 14px;
+  color: #bdb9b9;
+}
+
+.contact-me-input2 textarea {
+  height: 130px;
+  width: 100%;
+  padding: 15px;
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  line-height: 1.4;
+  font-size: 14px;
+  color: #bdb9b9;
+  border: 1px solid #e3e3e3;
+
+  outline: none;
+  -moz-appearance: none;
+  overflow: auto;
+}
+
+.contact-me-input2 textarea::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  line-height: 1.4;
+  font-size: 14px;
+  color: #bdb9b9;
+  transition: all 0.1s ease;
+}
+
+.contact-me-input2 textarea:hover,
+.contact-me-input2 textarea:focus,
+.contact-me-input1 input:hover,
+.contact-me-input1 input:focus {
+  padding: 14px;
+  border: 2px solid #414142;
+}
+
+.footer {
+  height: 40px;
+  width: 100%;
+  background-color: #414142;
+  border-radius: 90% 90% 0 0;
+}
+
+._error {
+  box-shadow: 0 0 15px red;
+}

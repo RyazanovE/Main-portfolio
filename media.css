@@ -1,0 +1,330 @@
+
+@media (max-width: 1650px) {
+    .container {
+        padding: 0 4%;
+    }
+
+.education-centers {
+    margin-left: 100px;
+}
+
+}
+
+
+
+
+@media (max-width: 1350px) {
+    .container {
+        padding: 0 4%;
+    }
+    .portfolio-card-parent {
+        width: 200px;
+    }
+
+    .contact-me {
+        height: auto;
+    }
+
+    .contact-me-inputs {
+        margin: 20px auto;
+    }
+
+    .contact-me .container {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .skills-text {
+        width: auto;
+        padding: 40px;
+    }
+
+    .skills-text p {
+        width: auto;
+    }
+
+    .skills-cards .card {
+        width: 180px;
+        height: 250px;
+        padding: 30px 20px;
+    }
+}
+
+
+
+@media (max-width: 1150px) {
+    .about-me {
+       height: auto;
+    }
+    .about-me .container {
+        flex-direction: column;
+    }
+     
+    .about-me .container .about-me-photo {
+        order: -1;
+        margin: 20px 0;
+     }
+ 
+
+}
+
+@media (max-width: 950px) {
+    .portfolio .container {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 800px) {
+
+    .education {
+        height: auto;
+    }
+    
+    .education .container {
+        height: auto;
+    }
+
+    .education-centers {
+        margin: auto;
+        margin-left: 20px;
+    }
+
+    .skills .container {
+        flex-direction: column;
+    }
+
+    .skills .skill-column1 {
+        margin-top: 30px;
+    }
+
+    .skills .skill-column2 {
+        margin-top: 90px;
+    }
+
+    .skills-text {
+        padding: 40px 60px;
+    }
+
+    .portfolio-card-parent {
+        margin: 20px auto;
+    }
+
+
+}
+
+
+
+@media (max-width: 700px) {
+    
+    .top-menu li a {
+        padding: 5px 5px;
+    }
+    
+    .about-me {
+       height: auto;
+    }
+
+    .about-me-content {
+        width: 100%;
+    }
+    .about-me-photo img {
+        width: 300px;
+    }
+
+   .portfolio-menu {
+       width: 430px;
+       margin-right: auto;
+       margin-left: auto;
+   }
+
+   .contact-me-text p,  .contact-me-text {
+    width: auto;
+   }
+
+   .contact-me-input2 {
+       width: auto;
+   }
+
+   .contact-me-button {
+       margin: auto;
+       margin-top: 30px;
+       width: 150px;
+   }
+}
+
+
+@media (max-width: 600px) {
+    
+    header .container {
+        display: block;
+        height: auto;
+        width: 100%;
+        padding: 0;
+    }  
+
+    
+
+
+    .header-img {
+        margin: auto;
+    }
+
+   
+
+    .contact-me-button {
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+
+    .social-links :nth-child(n+2)     {
+        transform: scale(0.6);
+        margin-left: 0;
+    }
+    
+   
+    .social-links a:nth-child(2) {
+        margin-left: 10%;
+    }
+
+    .social-links a:nth-child(n+3) {
+        margin-left: 2%;
+    }
+
+    .about-me-info {
+        padding: 10px;
+    }
+
+    .about-me-info .tittle {
+        margin-left: 15%;
+    }
+
+    .about-me-info .email {
+        margin-left: 10%;
+     }
+    
+    .about-me-info .number {
+       margin-left: 10%;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    .portfolio-card-parent {
+        width: 150px;
+    }
+
+    .contact-me-inputs {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .contact-me-col1, .contact-me-col2 {
+        padding: 0;
+    }
+
+    .contact-me-col1 {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    
+    .education-content {
+        width: auto;
+    }
+    .education-centers {
+        margin: auto;
+        max-width: 100%;
+    }
+
+    .education .container {
+       flex-direction: column;
+    }
+
+    .skill-column2 {
+        margin: 155px 0 0 20px;
+    }
+
+    .skills-cards .card {
+        width: 150px;
+
+    }
+
+    .portfolio-menu {
+        width: auto;
+    }
+
+    .portfolio-background {
+        overflow: hidden;
+    }
+
+ 
+}
+   
+
+
+@media (max-width: 420px) {
+    
+   
+
+    .about-me-photo img {
+        width: 200px;
+    }
+    .social-links p {
+        display: none;
+    }
+
+    .about-me-info {
+        padding-right: 0;
+        padding-left: 0;
+       
+    }
+
+    .about-me-info .contact-me-button {
+        display: none;
+    }
+
+    .about-me-info .email {
+        margin-left: 5%;
+     }
+    
+    .about-me-info .number {
+       margin-left: 5%;
+    }
+
+    .skills-cards .card {
+        width: 140px;
+        padding: 30px 10px;
+        
+       
+
+    }
+    .displayed-skill {
+        display: none;
+    }
+
+
+    .hidden-skill {
+        display: inline;
+    }
+
+ 
+    
+    .skills-text {
+        padding-bottom: 10px;
+    }
+
+    .skills .skill-column1 {
+        margin-top: 10px;
+    }
+
+    .skills .skill-column2 {
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+}
