@@ -27,14 +27,16 @@ html {
 /*////   header   //////*/
 
 header {
+
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+
   padding: 10px 0;
   background-color: #414142;
   border-radius: 0 0 20% 20%;
 
-  -ms-user-select: none;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
 }
 
 .header-img {

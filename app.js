@@ -17,7 +17,6 @@ portfolioBtns.forEach((el) => {
 });
 
 function show(event) {
-  console.log(event.currentTarget);
   if (event.currentTarget.classList.contains("All")) {
     portfolioCards.forEach((card) => {
       card.hidden = false;
@@ -42,6 +41,19 @@ function formSend(e) {
   const nameInput = document.getElementById("name_input");
   const emailInput = document.getElementById("email_input");
   const emailText = document.getElementById("email_text");
+
+    emailInput.addEventListener('focus', () => {
+        formRemoveError(emailInput)})
+    emailInput.addEventListener('blur', () => {
+        console.log(emailInput.value)
+        if (emailInput.value.trim() === '') return; 
+        formValidate()})
+    nameInput.addEventListener('focus', () => {
+        formRemoveError(nameInput)})
+    nameInput.addEventListener('blur', () => {
+      if (nameInput.value.trim() === '') return; 
+        formValidate()})
+
 
   e.preventDefault();
   const error = formValidate();
