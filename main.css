@@ -217,10 +217,6 @@ header nav {
 
 /*////   section: education  //////*/
 
-.education {
-  height: 461px;
-}
-
 /*////   section: skills   //////*/
 
 .skills {
@@ -308,7 +304,7 @@ header nav {
 }
 
 .education-content {
-  width: 606px;
+  max-width: 606px;
 }
 
 .education-text {
@@ -330,7 +326,7 @@ header nav {
 .education-centers {
   max-width: 50%;
   height: 100%;
-  margin-left: auto;
+  padding-left: 20%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -367,6 +363,11 @@ header nav {
   font-style: italic;
   opacity: 0.8;
 }
+
+.experience-content {
+  flex:1;
+}
+
 
 .portfolio .container {
   justify-content: center;
@@ -464,11 +465,11 @@ header nav {
 }
 
 #JSproject1 {
-  background-image: url("./");
+  background-image: url("./images/about-me/my-photo2.jpg");
 }
 
-#JSproject2 {
-  background-image: url("./images/about-me/my-photo2.jpg");
+#ReactProject2 {
+  background-image: url("./images/about-me/my-photo7.JPG");
 }
 
 #ReactProject1 {

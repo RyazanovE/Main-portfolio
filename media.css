@@ -4,9 +4,7 @@
         padding: 0 4%;
     }
 
-.education-centers {
-    margin-left: 100px;
-}
+
 
 }
 
@@ -79,17 +77,35 @@
 
 @media (max-width: 800px) {
 
+   
+
     .education {
         height: auto;
     }
     
+    .experience .container {
+        height: auto;
+        flex-direction: column;
+        width: auto;
+        justify-content: center;
+        
+    }
     .education .container {
         height: auto;
+        flex-direction: column;
+        width: auto;
+        justify-content: center;
+    }
+
+    .experience-content {
+        flex:0;
     }
 
     .education-centers {
         margin: auto;
         margin-left: 20px;
+        margin: 0;
+        padding: 0;
     }
 
     .skills .container {
@@ -242,9 +258,7 @@
         max-width: 100%;
     }
 
-    .education .container {
-       flex-direction: column;
-    }
+  
 
     .skill-column2 {
         margin: 155px 0 0 20px;
