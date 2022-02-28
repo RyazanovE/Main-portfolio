@@ -36,7 +36,7 @@ header {
   padding: 10px 0;
   background-color: #414142;
   border-radius: 0 0 20% 20%;
-
+ 
 }
 
 .header-img {
@@ -58,6 +58,7 @@ header {
 }
 
 header nav {
+  position: sticky;
   text-transform: uppercase;
   padding: 20px 0;
 
@@ -101,7 +102,7 @@ header nav {
   height: 421px;
 }
 
-.about-me .container {
+.about-me .container, .education .container {
   border-bottom: 1px solid #e3e3e3;
 }
 
@@ -207,12 +208,14 @@ header nav {
 }
 
 .about-me-photo {
-  margin: auto;
+ 
   text-align: center;
+  flex: 1;
 }
 
 .about-me-photo img {
-  box-shadow: 5px 20px 20px #414142;
+  
+  max-width: 40%;
 }
 
 /*////   section: education  //////*/
